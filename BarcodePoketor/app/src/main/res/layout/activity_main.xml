@@ -1,0 +1,40 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:orientation = "vertical"
+    android:background="#ffffb122">
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:orientation = "horizontal">
+        <Button
+            android:id = "@+id/btn_save"
+            android:layout_width = "150dp"
+            android:layout_height = "wrap_content"
+            android:text= "추가"
+            android:background = "#ffff2b0e"
+            android:textSize= "30dp"
+            android:textStyle = "bold"
+            android:textColor = "#fff8ff30"/>
+        <Button
+            android:id = "@+id/btn_del"
+            android:layout_width = "150dp"
+            android:layout_height = "wrap_content"
+            android:text= "삭제"
+            android:background = "#ffff2b0e"
+            android:textSize= "30dp"
+            android:textStyle = "bold"
+            android:textColor = "#fff8ff30"/>
+        <TextView
+            android:id = "@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "test"
+            android:textSize = "30dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
